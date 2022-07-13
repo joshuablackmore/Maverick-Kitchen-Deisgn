@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
+* {
+    color: white;
+    
+
+}
+
+p {
+    font-family: 'Shadows Into Light';
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0%;
+    background-color: rgba(48, 10, 65, 0.808);
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Inconsolata', 'Courier New', Courier, monospace;
+}
+
+/* Header css */
+
+header {
+    margin-top: 0 !important;
+}
+
+.nav-bar {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-bottom: 40px;
+
+}
+
+.nav-bar a {
+    text-decoration: underline 0.1em rgba(48, 10, 65,0);
+    text-underline-offset: 0.2em;
+    transition: text-decoration-color .8s, text-underline-offset 300ms;
+    
+}
+
+a:hover {
+    text-decoration-color:white;
+    
+}
+
+
+
+
+.tittle {
+    font-size: 3em;
+    font-family: 'Inconsolata', 'Courier New', Courier, monospace;
+}
+
+
+/* Hero css */
+
+
+
+.hero-container {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    background-image: url("https://klooshauling.com/wp-content/uploads/2018/10/kitchen-demolition-dos-and-donts-cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+@media screen and (max-width:600px) {
+    
+}
+
+.statement {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.7;
+    color: white;
+
+  
+}
+
+/* Portfolio css */
+
+
+
+.kitchen-container {
+    
+    
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.example {
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+}
+
+.max-width {
+    max-width: 400px;
+    max-height: 250px;
+    min-width: 400px;
+    border-radius: 5px;
+}
+
+span {
+    padding-top: 10px;
+    font-size: 1.2em;
+}
+
+
+
+/* Team css */
+
+.team-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+.teammate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    border: 1px solid black;
+    background-color: rgba(11, 3, 14, 0.828);
+    border-radius: 10px;
+    padding: 10px;
+    
+    width: 400px;
+    margin: 10px;
+    
+}
+
+.alex {
+    flex-shrink: 2;
+}
+
+.harry {
+    flex-shrink: 1;
+}
+
+.sarah {
+    flex-shrink: 1;
+}
+
+.mugshot {
+    max-width: 300px;
+    max-height: auto;
+    border-radius: 50%;
+}
+
+
+/*footer css*/
+
+.footer-container {
+    background-color: rgba(11, 3, 14, 0.828);
+    margin-bottom: 0px !important;
+    display: block;
+    box-sizing: border-box;
+    padding-bottom: 5px;
+}
+
+.container {
+
+
+    margin-top: 50px;
+    border-top: 2px solid white;
+}
+
+
+
+
