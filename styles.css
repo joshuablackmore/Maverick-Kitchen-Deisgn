@@ -189,12 +189,12 @@ span {
       align-items: center;
       margin: 0px;
       width: 100%;
-      /*overflow-y: auto;
-      overflow-x: auto;*/
+      overflow-y: none;
+      overflow-x: none;
     }
 
     .nav-bar {
-        display: inline-block;
+        display: none;
     }
 }
 
