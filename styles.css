@@ -195,13 +195,14 @@ span {
       overflow-x: auto;*/
     }
 }
-@media only screen and (max-width: 480px) {
 
-.mugshot /*.example .statement*/ {
+/*@media only screen and (max-width: 480px) {
+
+ .mugshot .example .statement {
         width: auto;
         justify-content: auto;
     }
-}
+} */
     
       
   
