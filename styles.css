@@ -138,7 +138,7 @@ span {
 
 /* Team css */
 
-.team-container .hero-container .kitchen-container .nav-bar {
+.team-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -183,11 +183,12 @@ span {
 }
 
 @media only screen and (max-width: 480px) {
-    .team-container {
+    .team-container .hero-container .kitchen-container .nav-bar {
       display: inline-block;
       justify-items: center;
       align-items: center;
       margin: auto;
+      width: auto;
 
     }
     .mugshot {
