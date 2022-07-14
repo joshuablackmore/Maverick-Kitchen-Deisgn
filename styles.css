@@ -186,12 +186,13 @@ span {
 
 @media only screen and (max-width: 480px) {
     .team-container .hero-container .kitchen-container .nav-bar {
-      display: inline-block;
+      display: block;
       justify-items: center;
       align-items: center;
       margin: auto;
       width: auto;
       overflow-y: auto;
+      overflow-x: auto;
     }
     .mugshot .example .statement {
         width: auto;
