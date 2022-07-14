@@ -194,7 +194,13 @@ span {
         width: auto;
         justify-content: auto;
     }
-
+    .container {
+        display: inline-block;
+        justify-items: center;
+        align-items: center;
+        margin: auto;
+  
+      }
   }
 
 /*footer css*/
