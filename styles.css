@@ -182,7 +182,7 @@ span {
     border-radius: 50%;
 }
 
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
       body {
       display: block;
       justify-content: center;
@@ -191,10 +191,6 @@ span {
       width: 100%;
       overflow-y: none;
       overflow-x: none;
-    }
-
-    .nav-bar {
-        display: none;
     }
 }
 
