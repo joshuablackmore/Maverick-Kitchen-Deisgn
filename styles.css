@@ -166,7 +166,7 @@ span {
     
 }
 
-.alex {
+/*.alex {
     flex-shrink: 2;
 }
 
@@ -176,7 +176,7 @@ span {
 
 .sarah {
     flex-shrink: 1;
-}
+}*/
 
 .mugshot {
     max-width: 300px;
@@ -185,7 +185,7 @@ span {
 }
 
 @media only screen and (max-width: 480px) {
-    .team-container .hero-container .kitchen-container .container .nav-bar {
+    .team-container .hero-container .kitchen-container .nav-bar {
       display: inline-block;
       justify-items: center;
       align-items: center;
