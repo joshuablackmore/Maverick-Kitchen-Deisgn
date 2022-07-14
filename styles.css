@@ -138,7 +138,7 @@ span {
 
 /* Team css */
 
-.team-container {
+.team-container .hero-container .kitchen-container .nav-bar {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -194,13 +194,8 @@ span {
         width: auto;
         justify-content: auto;
     }
-    .container {
-        display: inline-block;
-        justify-items: center;
-        align-items: center;
-        margin: auto;
-  
-      }
+    
+      
   }
 
 /*footer css*/
