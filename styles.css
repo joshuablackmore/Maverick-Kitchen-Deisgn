@@ -191,10 +191,10 @@ span {
       align-items: center;
       margin: auto;
       width: auto;
-      overflow-y: auto;
-      overflow-x: auto;
+      /*overflow-y: auto;
+      overflow-x: auto;*/
     }
-    .mugshot .example .statement {
+    .mugshot /*.example .statement*/ {
         width: auto;
         justify-content: auto;
     }
