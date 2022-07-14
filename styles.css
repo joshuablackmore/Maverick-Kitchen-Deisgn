@@ -145,7 +145,7 @@ span {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     
 }
 
@@ -191,7 +191,7 @@ span {
       align-items: center;
       margin: auto;
       width: auto;
-
+      overflow-y: auto;
     }
     .mugshot .example .statement {
         width: auto;
