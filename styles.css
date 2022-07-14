@@ -187,20 +187,24 @@ span {
 @media only screen and (max-width: 480px) {
     .team-container  {
       display: block;
-      justify-items: center;
+      justify-content: center;
       align-items: center;
       margin: auto;
       width: auto;
       /*overflow-y: auto;
       overflow-x: auto;*/
     }
-    .mugshot /*.example .statement*/ {
+}
+@media only screen and (max-width: 480px) {
+
+.mugshot /*.example .statement*/ {
         width: auto;
         justify-content: auto;
     }
+}
     
       
-  }
+  
 
 /*footer css*/
 
