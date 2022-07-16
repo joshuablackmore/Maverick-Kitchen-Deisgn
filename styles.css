@@ -159,6 +159,7 @@ span {
 
     @media screen and (max-width:1048px) {
        img {
+            margin: auto;
             display: block;
             width: 94%;
             height: auto;
@@ -216,13 +217,16 @@ span {
         margin-right: auto;
         margin-bottom: 50px;
     }
-    .team-container {
-        display: block;
-    }
-    
-
-    
+       
 }
+
+@media screen and (max-width: 1048px) {
+    .teammate img {
+        margin: auto;
+        
+    }
+}
+
 
 /*.alex {
     flex-shrink: 2;
