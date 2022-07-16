@@ -10,6 +10,10 @@
 
 }
 
+html {
+    font-size: 16px;
+}
+
 p {
     font-family: 'Shadows Into Light';
     font-size: 1.5em;
@@ -17,13 +21,18 @@ p {
 }
 
 h1 {
+    font-family: 'Inconsolata', monospace;
     font-size: 2em;
     text-decoration: underline;
 }
 
-html {
-    font-size: 16px;
+h2 {
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.75em;
+    text-decoration: underline;
 }
+
+
 
 body {
     /*min-height: 100vh;*/
@@ -88,11 +97,23 @@ a:hover {
 
 }
 
+.hero-container h1 {
+    font-size: 3em;
+    text-decoration: underline;
+    text-decoration-color: rgba(11, 3, 14, 0.828);
+    transition: text-decoration-color .6s;
+    
+}
+
+.hero-container h1:hover {
+    text-decoration-color: white;
+}
+
 
 
 .statement {
-    background-color: rgb(0, 0, 0);
-    opacity: 0.7;
+    background-color: rgba(11, 3, 14, 0.828);
+    
     color: white;
 
   
@@ -129,7 +150,8 @@ a:hover {
 }
 
 span {
-    padding-top: 10px;
+    
+    padding-top: 0.75em;
     font-size: 1.2em;
 }
 
@@ -196,11 +218,16 @@ span {
     align-items: center;
     justify-items: center;
     background-color: rgba(11, 3, 14, 0.828);
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 0.75em;
+    padding: 0.75em;
     max-width: 400px;
-    margin-top: 10px;
+    margin-top: 0.75em;
     
+}
+
+.teammate p {
+    font-size: 1.5em;
+    text-align: center;
 }
 
 .mugshot {
