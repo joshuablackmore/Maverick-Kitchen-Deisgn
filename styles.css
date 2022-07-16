@@ -159,6 +159,7 @@ span {
 
     @media screen and (max-width:1048px) {
        img {
+            display: block;
             width: 94%;
             height: auto;
             }
