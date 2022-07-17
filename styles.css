@@ -75,7 +75,7 @@ a:hover {
 
 @media screen and (max-width:1048px) {
     header {
-        border: 1px solid white;
+        
         display: block;
         width: 100%;
         margin-left: auto;
