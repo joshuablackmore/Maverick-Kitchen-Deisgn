@@ -36,12 +36,15 @@ h2 {
 
 body {
     /*min-height: 100vh;*/
-    margin: 0%;
+    margin: auto;
+    
     background-color: rgba(48, 10, 65, 0.808);
     font-size: 16px;
     text-align: center;
     font-family: 'Inconsolata', 'Courier New', Courier, monospace;
 }
+
+
 
 /* Header css */
 
@@ -67,6 +70,36 @@ header {
 
 a:hover {
     text-decoration-color:white;
+    
+}
+
+@media screen and (max-width:1048px) {
+    header {
+        border: 1px solid white;
+        display: block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+
+/*@media screen and (max-width:1048px) {
+    .nav-bar {
+        display: block;
+        width: 100%;
+        border: 1px solid red;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}*/
+
+@media screen and (max-width:375px) {
+    .nav-bar {
+        display: block;
+
+    }
     
 }
 
@@ -119,6 +152,20 @@ a:hover {
   
 }
 
+
+
+@media screen and (max-width:1048px) {
+    .hero-container {
+        display: block;
+        align-items: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+}
+
 /* Portfolio css */
 
 
@@ -136,7 +183,7 @@ a:hover {
     flex-direction: column;
     align-items: center;
     justify-items: center;
-    width: 400px;
+    /*width: 400px;*/
     height: 300px;
     padding: 10px;
 }
@@ -155,38 +202,52 @@ span {
     font-size: 1.2em;
 }
 
-@media screen and (max-width:1048px) {
+/*@media screen and (max-width:1048px) {
     .kitchen-container {
        display: block;
-       min-width: 100%;
+       
        margin-left: auto;
        margin-right: auto;
        }  
-   }
+   }*/
 
 
 @media screen and (max-width:1048px) {
      .example {
         display: block;
+        min-width: 94%;
         background-color: rgba(11, 3, 14, 0.828);
         margin-left: auto;
         margin-right: auto;
         margin-top: 40px;
         border-radius: 10px;
-        width: 94%;
-        height: 100%;
+        
+        
                     
     }
  }
 
-    @media screen and (max-width:1048px) {
-       img {
-            margin: auto;
-            display: block;
-            width: 94%;
-            height: auto;
-            }
-        }
+/*@media screen and (max-width:1048px) {
+    .max-width {
+        
+        display: block;
+        width: 100%;
+            
+   }
+}*/
+
+@media screen and (max-width:1048px) {
+   .max-width {
+        display: block;
+        box-sizing: border-box;
+        padding: 1.5em;
+        width: 100%;
+        min-width: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
 
 
 
@@ -198,6 +259,15 @@ span {
 }
 
 
+@media screen and (max-width:1048px) {
+    .statement {
+        display: block;
+        min-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
 
 /* Team css */
 
@@ -248,11 +318,14 @@ span {
 }
 
 @media screen and (max-width: 1048px) {
-    .teammate img {
+    .mugshot {
         margin: auto;
+        min-width: 10px;
         
     }
 }
+
+
 
 
 /*.alex {
@@ -294,9 +367,17 @@ span {
 
 .container {
 
-
     margin-top: 50px;
     border-top: 2px solid white;
+}
+
+@media screen and (max-width:1048px) {
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    
 }
 
 @media screen and (max-width: 1048px) {
@@ -305,10 +386,10 @@ span {
     display: block;
     justify-content: center;
     align-items: center;
-    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
-    overflow-y: none;
-    overflow-x: none;
+    
   }
 }
 
